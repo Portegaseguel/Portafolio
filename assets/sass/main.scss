@@ -1,0 +1,175 @@
+// Importar Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Estilos personalizados
+
+/* Variables de color */
+$primary-color: #C8F023;
+$secondary-color: #6c757d;
+$background-color: #000;
+$text-color: #fff;
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+/* Estilo personalizado para la imagen del logo */
+.navbar-logo {
+    height: 80px; 
+    max-height: 100%;
+    width: auto; 
+}
+
+/* Hover del menú */
+.navbar-nav .nav-link:hover {
+    color: $primary-color;
+    transform: scale(1.05);
+}
+
+/* Sección Hero */
+.hero {
+    background-color: $dark;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: $primary-color;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    color: $primary-color;
+}
+
+.hero p {
+    font-size: 1rem;
+}
+
+// Efecto H1
+@keyframes shine {
+    0% {
+        text-shadow: 0 0 5px $primary-color, 0 0 10px $primary-color, 0 0 15px $primary-color, 0 0 20px $primary-color, 0 0 25px $primary-color;
+    }
+    100% {
+        text-shadow: 0 0 10px $primary-color, 0 0 20px $primary-color, 0 0 30px $primary-color, 0 0 40px $primary-color, 0 0 50px $primary-color;
+    }
+}
+
+h1.shining-text {
+    color: $primary-color;
+    animation: shine 1.5s infinite alternate;
+}
+
+/* Sección de habilidades */
+.skills img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Sección de proyectos */
+
+.projects {
+    background-color: $dark;
+}
+
+.projects .card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: $background-color;
+    border: none;
+
+    // Sombra
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.projects .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 5px #C8F023; 
+}
+
+/* Sección de contacto */
+.contact form {
+    background-color: $dark;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid $primary-color;
+}
+
+.contact button {
+    background-color: $primary-color;
+    color: $dark;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.contact button:hover {
+    background-color: darken($primary-color, 10%);
+}
+
+.btn-custom:hover {
+    background-color: darken($primary-color, 10%);
+}
+
+.btn-custom {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: $dark; 
+}
+
+.social-media {
+    height: 100%; 
+}
+
+.social-media ul {
+    height: 100%;
+}
+
+.social-media li {
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+}
+
+.social-media .d-flex {
+    justify-content: flex-start; 
+}
+
+.social-media i {
+    margin-right: 10px; 
+}
+
+.social-link {
+    text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: $primary-color; 
+}
+
+/* Footer */
+footer a {
+    color: $primary-color; 
+    text-decoration: none; 
+}
+
+/* Hover footer */
+footer a:hover {
+    text-decoration: underline; 
+}
+
+
+
+
+

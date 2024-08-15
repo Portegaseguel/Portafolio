@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Peter Parker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53396029bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo_Paulina.png" alt="Logo" class="navbar-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#habilidades">Mis habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Sección de presentación -->
+    <section class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Columna de la imagen -->
+                <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                    <img src="./assets/img/developer.svg" alt="Paulina Ortega" class="img-fluid">
+                </div>
+                <!-- Columna de los textos y botón -->
+                <div class="col-md-6">
+                    <h1 class="display-4">Soy Paulina Ortega</h1>
+                    <h2 class="lead">Desarrollador FrontEnd</h2>
+                    <p>Soy una apasionada desarrolladora FrontEnd con experiencia en crear sitios web y aplicaciones que no solo son funcionales sino también visualmente atractivos. Me especializo en HTML, CSS, JavaScript y frameworks como Bootstrap y Vue.js. Mi objetivo es transformar ideas en experiencias digitales únicas, combinando creatividad y tecnología para resolver problemas y mejorar la usabilidad. Siempre estoy en busca de nuevos desafíos y oportunidades para seguir aprendiendo y creciendo en el mundo del desarrollo web.</p>
+                    <a href="#contacto" class="btn btn-primary btn-custom">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de habilidades -->
+    <section id="habilidades" class="skills py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Mis habilidades</h2>
+            <div class="row justify-content-between">
+                <!-- Icono 1 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-html5 fa-2xl" style="color: #e44d25;" data-bs-toggle="tooltip"
+                        title="Lenguaje de marcado para estructurar contenido web"></i>
+                    <span class="ms-2">HTML</span>
+                </div>
+                <!-- Icono 2 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-css3-alt fa-2xl" style="color: #0278bd;" data-bs-toggle="tooltip"
+                        title="Hoja de estilos para diseñar y presentar documentos web"></i>
+                    <span class="ms-2">CSS</span>
+                </div>
+                <!-- Icono 3 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-sass fa-2xl" style="color: #ce6799;" data-bs-toggle="tooltip"
+                        title="Preprocesador CSS que facilita el desarrollo"></i>
+                    <span class="ms-2">Sass</span>
+                </div>
+                <!-- Icono 4 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-bootstrap fa-2xl" style="color: #6c1aec;" data-bs-toggle="tooltip"
+                        title="Framework CSS para diseño responsive y componentes predefinidos"></i>
+                    <span class="ms-2">Bootstrap</span>
+                </div>
+                <!-- Icono 5 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-git-alt fa-2xl" style="color: #f15133;" data-bs-toggle="tooltip"
+                        title="Sistema de control de versiones para el seguimiento de cambios en el código"></i>
+                    <span class="ms-2">Git</span>
+                </div>
+                <!-- Icono 6 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-github fa-2xl" data-bs-toggle="tooltip"
+                        title="Plataforma para alojar repositorios Git y colaborar en proyectos"></i>
+                    <span class="ms-2">Github</span>
+                </div>
+                <!-- Icono 7 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-js fa-2xl" style="color: #f7e01e;" data-bs-toggle="tooltip"
+                        title="Lenguaje de programación para crear contenido dinámico en la web"></i>
+                    <span class="ms-2">JavaScript</span>
+                </div>
+                <!-- Icono 8 -->
+                <div class="col-6 col-md-1 mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-vuejs fa-2xl" style="color: #41b884;" data-bs-toggle="tooltip"
+                        title="Framework progresivo para construir interfaces de usuario"></i>
+                    <span class="ms-2">Vue</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de proyectos -->
+    <section id="proyectos" class="projects py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Mis Proyectos</h2>
+            <div class="row">
+                <!-- Tarjeta 1 -->
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/iguana-page.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Iguana Page</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/suricata.png" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Suricata</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/ricomida.png" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Ricomida</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 4 -->
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/viajes-chile.png" class="card-img-top" alt="Proyecto 4">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Viajes Chile</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección principal de contacto y redes sociales -->
+    <section id="contacto" class="contact-and-social py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Contáctame</h2>
+            <div class="row justify-content-center">
+                <!-- Sección de contacto -->
+                <div class="col-md-6 mb-4">
+                    <div class="contact">
+                        <form>
+                            <div class="row mb-3">
+                                <div class="col-md-6 mb-3 mb-md-0">
+                                    <input type="text" class="form-control" placeholder="Nombre"
+                                        data-bs-toggle="tooltip" title="Ingresa tu nombre">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Apellido"
+                                        data-bs-toggle="tooltip" title="Ingresa tu apellido">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Tu Email" data-bs-toggle="tooltip"
+                                    title="Ingresa tu correo electrónico">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Escribe tu mensaje"
+                                    data-bs-toggle="tooltip" title="Escribe tu mensaje aquí"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Sección de redes sociales -->
+                <div class="col-md-6 mb-4">
+                    <div class="social-media">
+                        <ul class="list-unstyled d-flex flex-column align-items-start justify-content-between h-100">
+                            <li class="mb-2">
+                                <a href="tel:+56999887766" class="social-link">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-solid fa-phone fa-xl me-2"></i>
+                                        +56999887766
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="mailto:frontend.portega@gmail.com" class="social-link">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-solid fa-envelope fa-xl me-2"></i>
+                                        frontend.portega@gmail.com
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="https://www.linkedin.com/in/paulina-ortega-seguel/" class="social-link"
+                                    target="_blank">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-brands fa-linkedin fa-xl me-2"></i>
+                                        paulina-ortega-seguel
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="https://github.com/Portegaseguel" class="social-link" target="_blank">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-brands fa-github fa-xl me-2"></i>
+                                        Portegaseguel
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="https://www.instagram.com/tuusuario/" class="social-link" target="_blank">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-brands fa-square-instagram fa-xl me-2"></i>
+                                        Instagram
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-3">
+        <div class="container">
+            <p class="mb-0">Desarrollado por <a href="https://github.com/Portegaseguel" target="_blank">Paulina
+                    Ortega</a>. Todos los derechos reservados &copy; <span id="year"></span>.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
